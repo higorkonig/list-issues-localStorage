@@ -69,7 +69,12 @@ export default class Main extends Component {
 					<FaGithubAlt />
 					Repositórios
 				</h1>
-        <p>Para utilizar, basta digiter o repositório no campo, como por exemplo: <strong>higorkonig/list-issues-localStorage</strong></p>
+				<p>
+					Projeto feito para listar as ultimas 10 issues em aberto em um
+					determinado repositório. Para utilizar, basta digiter o repositório no
+					campo, como por exemplo:{' '}
+					<strong>higorkonig/list-issues-localStorage</strong>
+				</p>
 
 				<Form onSubmit={this.handleSubmit}>
 					<input
